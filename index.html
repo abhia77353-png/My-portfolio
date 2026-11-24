@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Abhi<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Abhishek</span></h1>
+            <h2>I'm a <span id="typing">Web Developer</span></h2>
+            <p class="hero-text">
+                I create modern, responsive and user-friendly websites.
+                Passionate about coding, creativity and technology.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="profile-circle">
+                <div class="profile-text">DEVELOPER</div>
+                <div class="profile-icon">👨‍💻</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <p class="subtitle">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <div class="about-card">
+                <h3>Who Am I?</h3>
+                <p>
+                    Hello! I'm Abhishek, a passionate developer interested
+                    in creating beautiful and functional websites.
+                    I enjoy learning new technologies and building projects.
+                </p>
+                <p>
+                    My goal is to become a skilled full-stack developer
+                    and create useful digital experiences.
+                </p>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
+
+            <div class="about-details">
+                <div class="detail"><strong>Name:</strong> Abhishek</div>
+                <div class="detail"><strong>Role:</strong> Web Developer</div>
+                <div class="detail"><strong>Education:</strong> BCA</div>
+                <div class="detail"><strong>Location:</strong> Mysuru, India</div>
+                <div class="detail"><strong>Email:</strong> yourmail@gmail.com</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+        <p class="subtitle">WHAT I KNOW</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>🌐 HTML5</h3>
+                <div class="progress"><span style="width: 90%"></span></div>
+                <p>90%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>🎨 CSS3</h3>
+                <div class="progress"><span style="width: 80%"></span></div>
+                <p>80%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>⚡ JavaScript</h3>
+                <div class="progress"><span style="width: 65%"></span></div>
+                <p>65%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>⚛️ React</h3>
+                <div class="progress"><span style="width: 45%"></span></div>
+                <p>45%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <p class="subtitle">MY RECENT WORK</p>
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">💻</div>
+                <h3>Portfolio Website</h3>
+                <p>A modern personal portfolio built using HTML, CSS and JavaScript.</p>
+                <div class="tags">HTML · CSS · JavaScript</div>
+                <a href="#" class="project-link">View Project ↗</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🍽️</div>
+                <h3>Restaurant Website</h3>
+                <p>A responsive restaurant website with menu and contact sections.</p>
+                <div class="tags">HTML · CSS · JavaScript</div>
+                <a href="#" class="project-link">View Project ↗</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">📊</div>
+                <h3>Student Marks Calculator</h3>
+                <p>A JavaScript application to calculate student marks and averages.</p>
+                <div class="tags">JavaScript · HTML · CSS</div>
+                <a href="#" class="project-link">View Project ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+        <p class="subtitle">LET'S CONNECT</p>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Abhishek. All Rights Reserved.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
